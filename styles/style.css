@@ -3,6 +3,7 @@
   --secondary-color: #f9f7fe;
   --headings-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -45,8 +46,42 @@ p {
 .btn-main {
   background: var(--primary-color);
   border-radius: 4px;
+  box-shadow: var(--box-shadow);
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.app-description {
+  text-align: left;
+}
+
+.app-links {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  .app-description {
+    text-align: center;
+  }
+
+  .app-links {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }

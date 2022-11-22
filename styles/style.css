@@ -20,7 +20,12 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 52px;
+}
+
 p {
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -52,18 +57,19 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
 .app-description {
   text-align: left;
 }
 
 .app-links {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
 }
 
 @media (max-width: 576px) {

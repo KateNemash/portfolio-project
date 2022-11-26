@@ -29,6 +29,10 @@ p {
   font-weight: normal;
 }
 
+.active {
+  color: var(--primary-color) !important;
+}
+
 .main {
   background: var(--secondary-color);
   text-align: center;
@@ -49,7 +53,7 @@ p {
 }
 
 .content-section {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .content {
@@ -103,6 +107,16 @@ p {
 .kn-img {
   max-height: 500px;
   margin-left: 130px;
+}
+
+.logo {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+  padding: 0px;
+}
+
+.nav-item {
+  padding: 0 15px;
 }
 
 @media (max-width: 576px) {

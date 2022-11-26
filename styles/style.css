@@ -12,7 +12,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--headings-font-family);
 }
 
@@ -24,6 +25,9 @@ h2 {
   font-size: 52px;
 }
 
+h4 {
+  font-size: 48px;
+}
 p {
   font-size: 18px;
   font-weight: normal;
@@ -50,6 +54,10 @@ p {
   font-size: 24px;
   line-height: 2;
   color: #272142;
+}
+
+.p-featured {
+  font-size: 24px;
 }
 
 .content-section {
@@ -117,6 +125,41 @@ p {
 
 .nav-item {
   padding: 0 15px;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-section {
+  background: var(--secondary-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  font-size: 24px;
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 8px 14px;
+  border-radius: 50%;
+  transition: all 100px ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 @media (max-width: 576px) {
